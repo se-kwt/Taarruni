@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Gallery | Portfolio | Taarruni Design Solutions</title>
+  <meta name="description" content="Taarruni portfolio and gallery—web design, e-commerce, branding, print media, and interior design projects. Website development and multimedia solutions." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header__accent" aria-hidden="true"></div>
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo" aria-label="Taarruni Home"><img src="taarruni%20new%20logo.png" alt="Taarruni" width="140" height="40" /></a>
+      <nav class="header__nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <div class="header__dropdown" id="header-services-dropdown">
+          <button type="button" class="header__dropdown-trigger" aria-expanded="false" aria-haspopup="true" aria-controls="header-services-menu" id="header-services-trigger">Services <span class="header__dropdown-icon" aria-hidden="true"><svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+          <div class="header__dropdown-panel" id="header-services-menu" role="menu" aria-labelledby="header-services-trigger">
+            <div class="header__dropdown-caret" aria-hidden="true"></div>
+            <div class="header__dropdown-group"><span class="header__dropdown-heading">Marketing Services :-</span>
+              <a href="digital-marketing.html" role="menuitem" class="header__dropdown-item">Digital/Online Marketing</a>
+              <a href="offline-marketing.html" role="menuitem" class="header__dropdown-item">Traditional/Offline Marketing</a>
+            </div>
+            <div class="header__dropdown-group"><span class="header__dropdown-heading">All India Branding :-</span>
+              <a href="internal-signage.html" role="menuitem" class="header__dropdown-item">Internal Signage</a>
+              <a href="external-signage.html" role="menuitem" class="header__dropdown-item">External Signage</a>
+              <a href="hoardings.html" role="menuitem" class="header__dropdown-item">Hoardings</a>
+              <a href="all-india-branding.html" role="menuitem" class="header__dropdown-item">Outdoor Branding</a>
+            </div>
+            <div class="header__dropdown-group"><span class="header__dropdown-heading">IT Services :-</span>
+              <a href="cms-development.html" role="menuitem" class="header__dropdown-item">Cms Development</a>
+              <a href="ecommerce-development.html" role="menuitem" class="header__dropdown-item">E-Commerce Development</a>
+            </div>
+          </div>
+        </div>
+        <a href="blog/">Blog</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="index.html#clients">Clients</a>
+        <a href="index.html#contact" class="header__cta">Contact</a>
+      </nav>
+      <button class="header__toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero--full page-hero--simple page-hero--compact">
+      <div class="page-hero__bg" aria-hidden="true"></div>
+      <div class="container">
+        <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="page-hero__sep" aria-hidden="true">|</span>
+          <span>Portfolio</span>
+        </nav>
+        <h1 class="page-hero__title">Our Gallery</h1>
+        <p class="page-hero__sub">Taarruni Design Solutions (TDS) is a leading digital marketing and IT solutions company. Website development solutions, e-commerce solutions, multimedia presentation.</p>
+      </div>
+    </section>
+
+    <section class="portfolio portfolio-page" id="portfolio-gallery">
+      <div class="container">
+        <p class="section-label">Our work</p>
+        <h2 class="section-title">Our portfolio</h2>
+        <p class="section-sub">A curated selection of our web design, branding, print media, and interior design projects. From websites and e-commerce to brochures and branding.</p>
+        <div class="portfolio-tabs" role="tablist" aria-label="Filter portfolio by category">
+          <button type="button" class="portfolio-tab is-active" role="tab" aria-selected="true" data-portfolio-tab="all">Show All</button>
+          <button type="button" class="portfolio-tab" role="tab" aria-selected="false" data-portfolio-tab="print-media">Print Media</button>
+          <button type="button" class="portfolio-tab" role="tab" aria-selected="false" data-portfolio-tab="web-design">Web Design</button>
+          <button type="button" class="portfolio-tab" role="tab" aria-selected="false" data-portfolio-tab="branding">Branding</button>
+          <button type="button" class="portfolio-tab" role="tab" aria-selected="false" data-portfolio-tab="interior-designing">Interior Designing</button>
+        </div>
+        <div class="portfolio-bento">
+          <!-- Web Design -->
+          <article class="portfolio-card" data-portfolio-category="web-design">
+            <a href="https://adarshfoundation.org" target="_blank" rel="noopener noreferrer" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--1"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Web Design</span>
+              <h3 class="portfolio-card-title"><a href="https://adarshfoundation.org" target="_blank" rel="noopener noreferrer">Adarsh</a></h3>
+              <p class="portfolio-card-desc">adarshfoundation.org</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="web-design">
+            <a href="https://www.akkaonline.org/2014/" target="_blank" rel="noopener noreferrer" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--2"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Web Design</span>
+              <h3 class="portfolio-card-title"><a href="https://www.akkaonline.org/2014/" target="_blank" rel="noopener noreferrer">Akka-2014</a></h3>
+              <p class="portfolio-card-desc">www.akkaonline.org/2014/</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="web-design">
+            <a href="https://amartech.org" target="_blank" rel="noopener noreferrer" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--3"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Web Design</span>
+              <h3 class="portfolio-card-title"><a href="https://amartech.org" target="_blank" rel="noopener noreferrer">Amartech</a></h3>
+              <p class="portfolio-card-desc">amartech.org</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="web-design">
+            <a href="https://amoolyasystems.com" target="_blank" rel="noopener noreferrer" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--4"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Web Design</span>
+              <h3 class="portfolio-card-title"><a href="https://amoolyasystems.com" target="_blank" rel="noopener noreferrer">Amoolya</a></h3>
+              <p class="portfolio-card-desc">amoolyasystems.com</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="web-design">
+            <a href="https://anen.in" target="_blank" rel="noopener noreferrer" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--5"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Web Design</span>
+              <h3 class="portfolio-card-title"><a href="https://anen.in" target="_blank" rel="noopener noreferrer">Anen</a></h3>
+              <p class="portfolio-card-desc">anen.in</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="web-design">
+            <a href="https://aarnaclinic.com" target="_blank" rel="noopener noreferrer" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--6"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Web Design</span>
+              <h3 class="portfolio-card-title"><a href="https://aarnaclinic.com" target="_blank" rel="noopener noreferrer">Aarna clinic</a></h3>
+              <p class="portfolio-card-desc">aarnaclinic.com</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="web-design">
+            <a href="https://bhoomikahousing.net" target="_blank" rel="noopener noreferrer" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--1"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Web Design</span>
+              <h3 class="portfolio-card-title"><a href="https://bhoomikahousing.net" target="_blank" rel="noopener noreferrer">Bhoomika</a></h3>
+              <p class="portfolio-card-desc">bhoomikahousing.net</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="web-design">
+            <a href="https://justlaw.co.in" target="_blank" rel="noopener noreferrer" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--2"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Web Design</span>
+              <h3 class="portfolio-card-title"><a href="https://justlaw.co.in" target="_blank" rel="noopener noreferrer">Justlaw</a></h3>
+              <p class="portfolio-card-desc">justlaw.co.in</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="web-design">
+            <a href="https://maangalyadevelopers.com" target="_blank" rel="noopener noreferrer" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--3"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Web Design</span>
+              <h3 class="portfolio-card-title"><a href="https://maangalyadevelopers.com" target="_blank" rel="noopener noreferrer">Maangalya</a></h3>
+              <p class="portfolio-card-desc">maangalyadevelopers.com</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="web-design">
+            <a href="https://venturesoftglobal.com" target="_blank" rel="noopener noreferrer" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--4"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Web Design</span>
+              <h3 class="portfolio-card-title"><a href="https://venturesoftglobal.com" target="_blank" rel="noopener noreferrer">Venturesoftglobal</a></h3>
+              <p class="portfolio-card-desc">venturesoftglobal.com</p>
+            </div>
+          </article>
+          <!-- Branding -->
+          <article class="portfolio-card" data-portfolio-category="branding">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--5"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Branding</span>
+              <h3 class="portfolio-card-title">Dell</h3>
+              <p class="portfolio-card-desc">Branding</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="branding">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--6"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Branding</span>
+              <h3 class="portfolio-card-title">Vijaya Bank</h3>
+              <p class="portfolio-card-desc">Branding</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="branding">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--1"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Branding</span>
+              <h3 class="portfolio-card-title">Dream hotel</h3>
+              <p class="portfolio-card-desc">Branding</p>
+            </div>
+          </article>
+          <!-- Print Media -->
+          <article class="portfolio-card" data-portfolio-category="print-media">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--2"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Print Media</span>
+              <h3 class="portfolio-card-title">Newsletter Design of EMRI</h3>
+              <p class="portfolio-card-desc">Print design</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="print-media">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--3"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Print Media</span>
+              <h3 class="portfolio-card-title">3-Fold Flyer Design of Sevakirana</h3>
+              <p class="portfolio-card-desc">Print design</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="print-media">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--4"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Print Media</span>
+              <h3 class="portfolio-card-title">Brochure Design of Ananyaa International School</h3>
+              <p class="portfolio-card-desc">Print design</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="print-media">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--5"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Print Media</span>
+              <h3 class="portfolio-card-title">Brochure Design of Lincoln</h3>
+              <p class="portfolio-card-desc">Print design</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="print-media">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--6"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Print Media</span>
+              <h3 class="portfolio-card-title">Hoarding Design of Ferns Estates &amp; Developers</h3>
+              <p class="portfolio-card-desc">Print design</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="print-media">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--1"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Print Media</span>
+              <h3 class="portfolio-card-title">Newspaper Ad Design of Maangalya Developers</h3>
+              <p class="portfolio-card-desc">Print design</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="print-media">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--2"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Print Media</span>
+              <h3 class="portfolio-card-title">Catalogue Design of Mann Hummel</h3>
+              <p class="portfolio-card-desc">Print design</p>
+            </div>
+          </article>
+          <!-- Interior Designing -->
+          <article class="portfolio-card" data-portfolio-category="interior-designing">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--3"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Interior Designing</span>
+              <h3 class="portfolio-card-title">Interior Design Project</h3>
+              <p class="portfolio-card-desc">Interior designing</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="interior-designing">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--4"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Interior Designing</span>
+              <h3 class="portfolio-card-title">Tent Design of Ananyaa International School</h3>
+              <p class="portfolio-card-desc">Interior designing</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top-section">
+      <div class="container footer__inner">
+        <div class="footer__left">
+          <a href="index.html" class="footer__logo" aria-label="Taarruni Home"><img src="taarruni%20new%20logo1.png" alt="Taarruni" width="120" height="36" /></a>
+          <div class="footer__graphic" aria-hidden="true"><img src="Sub-Logo.jpeg" alt="Leaping towards Viksit Bharat 2047" width="380" height="88" /></div>
+        </div>
+        <div class="footer__right">
+          <div class="footer__top">
+            <nav class="footer__nav" aria-label="Footer navigation">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="index.html#services">Services</a>
+              <a href="blog/">Blog</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a href="index.html#clients">Clients</a>
+              <a href="index.html#contact">Contact</a>
+            </nav>
+            <a href="mailto:info@taarruni.com" class="footer__email">info@taarruni.com</a>
+          </div>
+          <div class="footer__about">
+            <p>Taarruni is a 360-degree Marketing Technology company specializing in technology-driven products and services within the marketing domain.</p>
+            <p>Established in 2005, we bring two decades of industry experience, blending creativity with strong technical expertise. Our core services include website design and development, digital marketing, web applications, e-commerce solutions, and custom platform development.</p>
+            <p>We work with businesses of all sizes to build scalable, user-friendly, and performance-oriented digital ecosystems. With deep expertise in strategy, UI/UX, SEO, automation, and emerging technologies, Taarruni helps brands strengthen their online presence, improve visibility, and achieve measurable business growth through reliable and innovative technology solutions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom-section">
+      <div class="container footer__bottom-inner">
+        <p class="footer__copy">© 2026. Taarruni Enterprises. All Rights Reserved.</p>
+        <p class="footer__meta">Since 2005. Bangalore. California.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

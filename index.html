@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taarruni Design Solutions | Web Development Company in Bangalore</title>
+  <meta name="description"
+    content="Taarruni Design Solutions (TDS) - Leading Multimedia and web solutions provider. Web design, CMS, E-Commerce, Digital Marketing & SEO since 2005." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__accent" aria-hidden="true"></div>
+    <div class="container header__inner">
+      <a href="index.html#home" class="header__logo" aria-label="Taarruni Home"><img src="taarruni%20new%20logo.png"
+          alt="Taarruni" width="140" height="40" /></a>
+      <nav class="header__nav" aria-label="Main navigation">
+        <a href="index.html#home">Home</a>
+        <a href="about.html">About</a>
+        <div class="header__dropdown" id="header-services-dropdown">
+          <button type="button" class="header__dropdown-trigger" aria-expanded="false" aria-haspopup="true"
+            aria-controls="header-services-menu" id="header-services-trigger">
+            Services <span class="header__dropdown-icon" aria-hidden="true"><svg width="10" height="6"
+                viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></span>
+          </button>
+          <div class="header__dropdown-panel" id="header-services-menu" role="menu"
+            aria-labelledby="header-services-trigger">
+            <div class="header__dropdown-caret" aria-hidden="true"></div>
+            <div class="header__dropdown-group">
+              <span class="header__dropdown-heading">Marketing Services :-</span>
+              <a href="digital-marketing.html" role="menuitem" class="header__dropdown-item">Digital/Online
+                Marketing</a>
+              <a href="offline-marketing.html" role="menuitem" class="header__dropdown-item">Traditional/Offline
+                Marketing</a>
+            </div>
+            <div class="header__dropdown-group">
+              <span class="header__dropdown-heading">All India Branding :-</span>
+              <a href="internal-signage.html" role="menuitem" class="header__dropdown-item">Internal Signage</a>
+              <a href="external-signage.html" role="menuitem" class="header__dropdown-item">External Signage</a>
+              <a href="hoardings.html" role="menuitem" class="header__dropdown-item">Hoardings</a>
+              <a href="all-india-branding.html" role="menuitem" class="header__dropdown-item">Outdoor Branding</a>
+            </div>
+            <div class="header__dropdown-group">
+              <span class="header__dropdown-heading">IT Services :-</span>
+              <a href="cms-development.html" role="menuitem" class="header__dropdown-item">Cms Development</a>
+              <a href="ecommerce-development.html" role="menuitem" class="header__dropdown-item">E-Commerce
+                Development</a>
+            </div>
+          </div>
+        </div>
+        <a href="blog.html">Blog</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="index.html#clients">Clients</a>
+        <a href="index.html#contact" class="header__cta">Contact</a>
+      </nav>
+      <button class="header__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div id="hero-vanta" class="hero-vanta" aria-hidden="true"></div>
+      <div class="hero-bg hero-bg-fallback" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <span class="hero-badge"><span class="terminal-cmd">&gt; npm run build</span><span class="terminal-result">
+              Your Success</span></span>
+          <h1 class="hero-title">We Build Digital Products <span class="highlight">THAT SCALE</span></h1>
+          <p class="hero-desc">Full-cycle web development for brands who demand speed, security, and pixel-perfect
+            execution.</p>
+          <div class="hero-actions">
+            <a href="portfolio.html" class="about-cta-btn about-cta-btn--primary">
+              <span class="about-cta-btn-text">View Portfolio</span>
+              <span class="about-cta-btn-icon" aria-hidden="true">→</span>
+            </a>
+            <a href="#about" class="about-cta-btn">
+              <span class="about-cta-btn-text">Our Process</span>
+              <span class="about-cta-btn-icon" aria-hidden="true">→</span>
+            </a>
+          </div>
+          <div class="hero-meta">
+            <span class="hero-trust">Since 2005</span>
+            <span class="hero-dot" aria-hidden="true"></span>
+            <span class="hero-trust">Bangalore & USA</span>
+            <span class="hero-dot" aria-hidden="true"></span>
+            <span class="hero-trust">100+ Clients</span>
+          </div>
+          <div class="hero-stack">
+            <span class="hero-pill">React</span>
+            <span class="hero-pill">Node</span>
+            <span class="hero-pill">MongoDB</span>
+            <span class="hero-pill">AWS</span>
+            <span class="hero-pill">SEO</span>
+          </div>
+        </div>
+        <div class="hero-code-card">
+          <div class="code-window">
+            <div class="code-dots"><span></span><span></span><span></span></div>
+            <pre class="code-content"><code><span class="kw">const</span> agency = {
+  <span class="prop">name</span>: <span class="str">'Taarruni'</span>,
+  <span class="prop">skills</span>: [<span class="str">'React'</span>, <span class="str">'Node'</span>, <span class="str">'AWS'</span>],
+  <span class="prop">mission</span>: <span class="kw">async</span> <span class="kw">function</span>() {
+    <span class="kw">return</span> createHighPerformanceUI();
+  }
+};
+
+<span class="kw">await</span> agency.mission(); <span class="comment">// Returns: Success</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <!-- <p class="section-label">What we do</p>
+        <h2 class="section-title">Services</h2> -->
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3" />
+                <path
+                  d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+              </svg>
+            </div>
+            <h3>Custom Web Apps</h3>
+            <p>Scalable applications built using React, Node and MongoDB.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                <line x1="12" y1="18" x2="12" y2="18" />
+              </svg>
+            </div>
+            <h3>Adaptive mobile-ready web solutions</h3>
+            <p>That remove app installation barriers and provide effortless, OS-agnostic access across devices.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+                <path
+                  d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" />
+                <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
+                <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+              </svg>
+            </div>
+            <h3>Performance Tuning</h3>
+            <p>Professional SEO services to improve Google rankings, increase organic traffic, and grow your business
+              online.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about" aria-labelledby="about-title">
+      <div class="container about-container">
+        <div class="about-content">
+          <p class="about-label">About Us</p>
+          <h2 id="about-title" class="about-heading">Who we are</h2>
+          <p class="about-lead">Taarruni Design Solutions (TDS) is a leading multimedia and web solutions provider.</p>
+          <p class="about-body">Incorporated in 2005 at Bangalore, India, we are a prominent brand delivering end-to-end
+            services in web design, multimedia (2D/3D animation), web application development, e-commerce, SEO, SEM, and
+            print media.</p>
+          <ul class="about-points">
+            <li>Web design, development &amp; redesign</li>
+            <li>E-Commerce, CMS &amp; custom applications</li>
+            <li>Digital marketing, SEO &amp; SEM</li>
+            <li>Multimedia, branding &amp; print</li>
+          </ul>
+          <div class="about-cta-wrap">
+            <a href="#contact" class="about-cta-btn">
+              <span class="about-cta-btn-text">Know more</span>
+              <span class="about-cta-btn-icon" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+        <figure class="about-figure">
+          <img src="About us.png"
+            alt="Taarruni services: Web Development, Digital Marketing, SEO, Web Hosting, Printing, Startup Support, Web Application Development"
+            width="600" height="400" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+    <section id="blog" class="blog">
+      <div class="container">
+        <p class="section-label">Insights</p>
+        <h2 class="section-title">Insights Digital Journal</h2>
+        <p class="section-sub">Explore our Blogs—your hub for insights and latest updates across web development, UI/UX
+          design, and digital marketing. We share practical tips, industry trends, real-world case studies, and creative
+          ideas to help designers, developers.</p>
+        <div class="blog-grid">
+          <article class="blog-card">
+            <a href="#" class="blog-card-image-wrap">
+              <span class="blog-card-image blog-card-image--1" aria-hidden="true"></span>
+            </a>
+            <div class="blog-card-body">
+              <span class="blog-card-category">Web Development</span>
+              <h3 class="blog-card-title"><a href="#">Why React and Node.js Are a Strong Fit for Enterprise Apps</a>
+              </h3>
+              <p class="blog-card-excerpt">Choosing the right stack matters. We break down how React and Node.js deliver
+                speed and scalability.</p>
+              <div class="blog-card-meta">
+                <time datetime="2025-01-15">Jan 15, 2025</time>
+                <a href="#" class="blog-card-link">Read more <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="blog-card">
+            <a href="#" class="blog-card-image-wrap">
+              <span class="blog-card-image blog-card-image--2" aria-hidden="true"></span>
+            </a>
+            <div class="blog-card-body">
+              <span class="blog-card-category">SEO</span>
+              <h3 class="blog-card-title"><a href="#">Technical SEO Checklist for Modern Websites</a></h3>
+              <p class="blog-card-excerpt">Core Web Vitals, structured data, and crawlability—a practical checklist to
+                improve rankings and user experience.</p>
+              <div class="blog-card-meta">
+                <time datetime="2025-01-08">Jan 8, 2025</time>
+                <a href="#" class="blog-card-link">Read more <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="blog-card">
+            <a href="#" class="blog-card-image-wrap">
+              <span class="blog-card-image blog-card-image--3" aria-hidden="true"></span>
+            </a>
+            <div class="blog-card-body">
+              <span class="blog-card-category">Design</span>
+              <h3 class="blog-card-title"><a href="#">Design Systems That Scale With Your Product</a></h3>
+              <p class="blog-card-excerpt">Consistent UI, faster iteration, and better collaboration. How we build and
+                maintain design systems for growing brands.</p>
+              <div class="blog-card-meta">
+                <time datetime="2024-12-20">Dec 20, 2024</time>
+                <a href="#" class="blog-card-link">Read more <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <p class="section-label">Our work</p>
+        <h2 class="section-title">Our portfolio</h2>
+        <p class="section-sub"> Our Portfolio, showcasing a curated selection of our finest web and design projects.
+          From visually compelling websites to user-centered digital experiences, each project reflects our creativity
+          and technical expertise.</p>
+        <div class="portfolio-tabs" role="tablist" aria-label="Filter portfolio by category">
+          <button type="button" class="portfolio-tab is-active" role="tab" aria-selected="true"
+            data-portfolio-tab="all">All</button>
+          <button type="button" class="portfolio-tab" role="tab" aria-selected="false"
+            data-portfolio-tab="e-commerce">E-Commerce</button>
+          <button type="button" class="portfolio-tab" role="tab" aria-selected="false"
+            data-portfolio-tab="web-design">Web Design</button>
+          <button type="button" class="portfolio-tab" role="tab" aria-selected="false"
+            data-portfolio-tab="branding">Branding</button>
+          <button type="button" class="portfolio-tab" role="tab" aria-selected="false"
+            data-portfolio-tab="cms">CMS</button>
+          <button type="button" class="portfolio-tab" role="tab" aria-selected="false"
+            data-portfolio-tab="seo-marketing">SEO & Marketing</button>
+          <button type="button" class="portfolio-tab" role="tab" aria-selected="false"
+            data-portfolio-tab="web-application">Web Application</button>
+        </div>
+        <div class="portfolio-bento">
+          <article class="portfolio-card portfolio-card--featured" data-portfolio-category="e-commerce">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--1"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span
+                  class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">E-Commerce</span>
+              <h3 class="portfolio-card-title"><a href="#">Modern E-Commerce Platform</a></h3>
+              <p class="portfolio-card-desc">Full-stack online store with React, Node.js, and secure payment
+                integration.</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="web-design">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--2"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span
+                  class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Web Design</span>
+              <h3 class="portfolio-card-title"><a href="#">Corporate Website Redesign</a></h3>
+              <p class="portfolio-card-desc">Responsive site with CMS and lead capture.</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="branding">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--3"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span
+                  class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Branding</span>
+              <h3 class="portfolio-card-title"><a href="#">Brand Identity & Visual System</a></h3>
+              <p class="portfolio-card-desc">Logo, guidelines, and digital assets.</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="cms">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--4"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span
+                  class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">CMS</span>
+              <h3 class="portfolio-card-title"><a href="#">Content-Managed Portal</a></h3>
+              <p class="portfolio-card-desc">Multi-language CMS with custom modules.</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="seo-marketing">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--5"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span
+                  class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">SEO & Marketing</span>
+              <h3 class="portfolio-card-title"><a href="#">SEO & Content Strategy</a></h3>
+              <p class="portfolio-card-desc">Technical SEO and organic growth.</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-portfolio-category="web-application">
+            <a href="#" class="portfolio-card-thumb">
+              <span class="portfolio-card-image portfolio-card-image--6"></span>
+              <span class="portfolio-card-overlay"><span class="portfolio-card-overlay-text">View project</span> <span
+                  class="portfolio-card-overlay-arrow" aria-hidden="true">→</span></span>
+            </a>
+            <div class="portfolio-card-body">
+              <span class="portfolio-card-category">Web Application</span>
+              <h3 class="portfolio-card-title"><a href="#">Custom Web Application</a></h3>
+              <p class="portfolio-card-desc">Dashboard and workflow tools.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="clients">
+      <div class="container">
+        <p class="section-label">Trusted by</p>
+        <h2 class="section-title">Clients</h2>
+        <p class="section-sub">Clients showcases our valued partnerships with leading brands across diverse industries.
+          These collaborations reflect our credibility, dedication, and expertise in delivering high-quality digital
+          solutions that align with business goals</p>
+        <div class="clients-carousel">
+          <button type="button" class="clients-carousel-btn clients-carousel-btn--prev" aria-label="Previous clients">
+            <span aria-hidden="true">‹</span>
+          </button>
+          <button type="button" class="clients-carousel-btn clients-carousel-btn--next" aria-label="Next clients">
+            <span aria-hidden="true">›</span>
+          </button>
+          <div class="clients-carousel-viewport">
+            <div class="clients-carousel-track">
+              <div class="clients-slide">
+                <img src="https://placehold.co/180x80/1c2430/6b7b8c?text=Client" alt="Client logo" width="180"
+                  height="80" loading="lazy">
+              </div>
+              <div class="clients-slide">
+                <img src="https://placehold.co/180x80/1c2430/6b7b8c?text=Client" alt="Client logo" width="180"
+                  height="80" loading="lazy">
+              </div>
+              <div class="clients-slide">
+                <img src="https://placehold.co/180x80/1c2430/6b7b8c?text=Client" alt="Client logo" width="180"
+                  height="80" loading="lazy">
+              </div>
+              <div class="clients-slide">
+                <img src="https://placehold.co/180x80/1c2430/6b7b8c?text=Client" alt="Client logo" width="180"
+                  height="80" loading="lazy">
+              </div>
+              <div class="clients-slide">
+                <img src="https://placehold.co/180x80/1c2430/6b7b8c?text=Client" alt="Client logo" width="180"
+                  height="80" loading="lazy">
+              </div>
+              <div class="clients-slide">
+                <img src="https://placehold.co/180x80/1c2430/6b7b8c?text=Client" alt="Client logo" width="180"
+                  height="80" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <p class="section-label">Client speak</p>
+        <h2 class="section-title">Words of appreciation</h2>
+        <p class="section-sub">Words of Appreciation reflects genuine feedback from our clients about their experience
+          working with us. Their testimonials highlight our professionalism, creativity, collaboration, and ability to
+          deliver results</p>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__quote">I am a perpetual client and fan of TDS work. They designed and managed
+              two websites for my companies which were well thought out, creative and practical. They offer clever and
+              helpful suggestions and are timely whenever we have a request for changes. Hats off for TDS!</p>
+            <footer class="testimonial-card__footer">
+              <span class="testimonial-card__name">Donna Hamlin</span>
+              <span class="testimonial-card__role">Founder</span>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__quote">TDS was referred to me by a colleague who raved about their work. Vasant
+              comes highly technically qualified and balances this with strong emotional intelligence. I confidently
+              recommend Vasant and his team at Taarruni for Website, Digital Marketing &amp; SEO.</p>
+            <footer class="testimonial-card__footer">
+              <span class="testimonial-card__name">Tracy Ann Curtis</span>
+              <span class="testimonial-card__role">Executive Coach</span>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__quote">TDS is an excellent website design company with a superb team to ensure
+              you see results when it matters. They communicate clear and concise actions and are always available to
+              discuss the details.</p>
+            <footer class="testimonial-card__footer">
+              <span class="testimonial-card__name">Wren Solares</span>
+              <span class="testimonial-card__role">Creative Director</span>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <p class="section-label">Get in touch</p>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-sub">Reach out for projects, partnerships, or a quick hello. We're here to help.</p>
+        <div class="contact-layout">
+          <div class="contact-details">
+            <div class="contact-card contact-card--reach">
+              <h3 class="contact-card__title">Phone &amp; Email</h3>
+              <div class="contact-links">
+                <a href="tel:+918026561646" class="contact-link">
+                  <span class="contact-link__icon" aria-hidden="true">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                    </svg>
+                  </span>
+                  +91 80 26561646
+                </a>
+                <a href="tel:+919880477344" class="contact-link">
+                  <span class="contact-link__icon" aria-hidden="true">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                    </svg>
+                  </span>
+                  +91 98804 77344
+                </a>
+                <a href="mailto:info@taarruni.com" class="contact-link">
+                  <span class="contact-link__icon" aria-hidden="true">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                      <polyline points="22,6 12,13 2,6" />
+                    </svg>
+                  </span>
+                  info@taarruni.com
+                </a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <h3 class="contact-card__title">Head Office</h3>
+              <p class="contact-card__text">Taarruni Design Solutions<br>No. 67/1-1, “PRAVARA”, H.B. Samaja
+                Road,Basavanagudi, Bangalore</p>
+            </div>
+            <div class="contact-card">
+              <h3 class="contact-card__title">USA Office</h3>
+              <p class="contact-card__text">Taarruni<br>C/o. Izen Ai Inc, 4556 Fernandez Street,Union City, CA 94587,
+                USA</p>
+            </div>
+            <div class="contact-map-wrap">
+              <iframe class="contact-map" title="Taarruni Design Solutions – Bangalore office location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9316!2d77.5946!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3a85171302b!2sBasavanagudi%2C%20Bengaluru%2C%20Karnataka!2e0!3e2"
+                loading="lazy" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <div class="contact-map-overlay" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="contact-right">
+            <div class="contact-form-wrap">
+              <p class="contact-form__heading">Send us a message</p>
+              <form class="contact-form" action="#" method="post">
+                <div class="contact-form__row">
+                  <div class="contact-form__field">
+                    <label for="name">Name <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required />
+                  </div>
+                  <div class="contact-form__field">
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required />
+                  </div>
+                </div>
+                <div class="contact-form__field">
+                  <label for="phone">Phone <span class="required">*</span></label>
+                  <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required />
+                </div>
+                <div class="contact-form__field">
+                  <label for="services">Services</label>
+                  <select id="services-select" name="services">
+                    <option value="">Select a service</option>
+                    <option value="web">Web Development</option>
+                    <option value="digital">Digital Marketing / SEO</option>
+                    <option value="printing">Printing</option>
+                  </select>
+                </div>
+                <div class="contact-form__field">
+                  <label for="message">Message <span class="required">*</span></label>
+                  <textarea id="message" name="message" rows="4"
+                    placeholder="Tell us about your project or how we can help…" required></textarea>
+                </div>
+                <button type="submit" class="contact-form__submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top-section">
+      <div class="container footer__inner">
+        <div class="footer__left">
+          <a href="index.html" class="footer__logo" aria-label="Taarruni Home"><img src="taarruni%20new%20logo1.png"
+              alt="Taarruni" width="120" height="36" /></a>
+          <div class="footer__graphic" aria-hidden="true">
+            <img src="Sub-Logo.jpeg" alt="Leaping towards Viksit Bharat 2047" width="380" height="88" />
+          </div>
+        </div>
+        <div class="footer__right">
+          <div class="footer__top">
+            <nav class="footer__nav" aria-label="Footer navigation">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="index.html#services">Services</a>
+              <a href="blog.html">Blog</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a href="index.html#clients">Clients</a>
+              <a href="index.html#contact">Contact</a>
+            </nav>
+            <a href="mailto:info@taarruni.com" class="footer__email">info@taarruni.com</a>
+          </div>
+          <div class="footer__about">
+            <p>Taarruni is a 360-degree Marketing Technology company specializing in technology-driven products and
+              services within the marketing domain.</p>
+            <p>Established in 2005, we bring two decades of industry experience, blending creativity with strong
+              technical expertise. Our core services include website design and development, digital marketing, web
+              applications, e-commerce solutions, and custom platform development.</p>
+            <p>We work with businesses of all sizes to build scalable, user-friendly, and performance-oriented digital
+              ecosystems. With deep expertise in strategy, UI/UX, SEO, automation, and emerging technologies, Taarruni
+              helps brands strengthen their online presence, improve visibility, and achieve measurable business growth
+              through reliable and innovative technology solutions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom-section">
+      <!-- <div class="container footer__bottom-inner">
+        <p class="footer__copy">© 2026. Taarruni Enterprises. All Rights Reserved.</p>
+        <p class="footer__meta">Since 2005. Bangalore. California.</p>
+      </div> -->
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function initVanta() {
+      var hero = document.getElementById('hero-vanta');
+      if (!hero) return;
+      var isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var isSmall = window.matchMedia('(max-width: 768px)').matches;
+      if (isReduced || isSmall) {
+        hero.parentElement.classList.add('hero-vanta-disabled');
+        return;
+      }
+      if (typeof VANTA === 'undefined') {
+        hero.parentElement.classList.add('hero-vanta-disabled');
+        return;
+      }
+      try {
+        window.vantaNet = VANTA.NET({
+          el: '#hero-vanta',
+          backgroundColor: 0x0a0e14,
+          color: 0x4fc0d2,
+          highlightColor: 0x6ee7b7,
+          points: 10,
+          spacing: 15,
+          showDots: true,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200,
+          minWidth: 200,
+          scale: 1,
+          scaleMobile: 1,
+          maxDistance: 20
+        });
+      } catch (e) {
+        hero.parentElement.classList.add('hero-vanta-disabled');
+      }
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Taarruni Design Solutions</title>
+  <meta name="description" content="Taarruni Design Solutions (TDS) - A leading IT &amp; marketing solutions company since 2005. Web design, development, SEO, and digital solutions in Bangalore and worldwide." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header__accent" aria-hidden="true"></div>
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo" aria-label="Taarruni Home"><img src="taarruni%20new%20logo.png" alt="Taarruni" width="140" height="40" /></a>
+      <nav class="header__nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="header__nav--active">About</a>
+        <div class="header__dropdown" id="header-services-dropdown">
+          <button type="button" class="header__dropdown-trigger" aria-expanded="false" aria-haspopup="true" aria-controls="header-services-menu" id="header-services-trigger">
+            Services <span class="header__dropdown-icon" aria-hidden="true"><svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </button>
+          <div class="header__dropdown-panel" id="header-services-menu" role="menu" aria-labelledby="header-services-trigger">
+            <div class="header__dropdown-caret" aria-hidden="true"></div>
+            <div class="header__dropdown-group">
+              <span class="header__dropdown-heading">Marketing Services :-</span>
+              <a href="digital-marketing.html" role="menuitem" class="header__dropdown-item">Digital/Online Marketing</a>
+              <a href="offline-marketing.html" role="menuitem" class="header__dropdown-item">Traditional/Offline Marketing</a>
+            </div>
+            <div class="header__dropdown-group">
+              <span class="header__dropdown-heading">All India Branding :-</span>
+              <a href="internal-signage.html" role="menuitem" class="header__dropdown-item">Internal Signage</a>
+              <a href="external-signage.html" role="menuitem" class="header__dropdown-item">External Signage</a>
+              <a href="hoardings.html" role="menuitem" class="header__dropdown-item">Hoardings</a>
+              <a href="all-india-branding.html" role="menuitem" class="header__dropdown-item">Outdoor Branding</a>
+            </div>
+            <div class="header__dropdown-group">
+              <span class="header__dropdown-heading">IT Services :-</span>
+              <a href="cms-development.html" role="menuitem" class="header__dropdown-item">Cms Development</a>
+              <a href="ecommerce-development.html" role="menuitem" class="header__dropdown-item">E-Commerce Development</a>
+            </div>
+          </div>
+        </div>
+        <a href="blog.html">Blog</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="index.html#clients">Clients</a>
+        <a href="index.html#contact" class="header__cta">Contact</a>
+      </nav>
+      <button class="header__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="page-hero page-hero--full">
+      <div class="page-hero__bg" aria-hidden="true"></div>
+      <div class="container">
+        <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="page-hero__sep" aria-hidden="true">|</span>
+          <span>About</span>
+        </nav>
+        <h1 class="page-hero__title">About Us</h1>
+      </div>
+    </section>
+
+    <!-- Experience / Overview (main section – overlapping images + stat card) -->
+    <section class="about-block about-block--experience">
+      <div class="container about-block__grid about-block__grid--main">
+        <div class="about-block__visual about-block__visual--main">
+          <div class="about-block__visual-cell">
+            <div class="about-block__image-wrap">
+              <img src="AB2.png" alt="Taarruni team and services" width="520" height="360" loading="lazy" />
+            </div>
+          </div>
+          <div class="about-block__visual-cell">
+            <div class="about-block__image-wrap">
+              <img src="AB1.png" alt="Taarruni expertise" width="520" height="360" loading="lazy" />
+            </div>
+            <div class="about-stat-card about-stat-card--overlap">
+              <span class="about-stat-card__number">20+</span>
+              <span class="about-stat-card__label">Years of Experience</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-block__content about-block__content--card about-block__content--main">
+          <p class="about-block__label">About Taarruni</p>
+          <h2 class="about-block__heading">Innovative IT &amp; Marketing Solutions</h2>
+          <p class="about-block__text">Taarruni is a 360° measurable IT &amp; marketing solutions company. Incorporated in 2005, we present ourselves as a trustworthy partner for your IT &amp; marketing requirements. Our success is in yours—when you reach your goal, we reach ours.</p>
+          <ul class="about-block__checklist about-block__checklist--checks">
+            <li>Web design, development &amp; redesign</li>
+            <li>E-Commerce, CMS &amp; custom applications</li>
+            <li>Digital marketing, SEO &amp; SEM</li>
+            <li>Multimedia, branding &amp; print</li>
+          </ul>
+          <a href="index.html#services" class="about-cta-btn about-cta-btn--primary">
+            <span class="about-cta-btn-text">Our Services</span>
+            <span class="about-cta-btn-icon" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vision, Mission, History + Strategic Plan -->
+    <section class="about-block about-block--vision">
+      <div class="container about-block__grid about-block__grid--reverse about-block__grid--vision">
+        <div class="about-block__cards about-block__cards--vision">
+          <p class="about-block__label">Who We Are</p>
+          <h2 class="about-block__heading about-block__heading--vision">Vision, Mission &amp; History</h2>
+          <div class="about-mini-card">
+            <span class="about-mini-card__num" aria-hidden="true">01</span>
+            <h3 class="about-mini-card__title">Our Vision</h3>
+            <p>To be the most trusted partner for measurable IT &amp; marketing solutions, helping businesses achieve their goals with creativity, quality, and on-time delivery.</p>
+          </div>
+          <div class="about-mini-card">
+            <span class="about-mini-card__num" aria-hidden="true">02</span>
+            <h3 class="about-mini-card__title">Our Mission</h3>
+            <p>We deliver low-cost, effective, top-notch quality products and services. We keep overheads low and partner closely with every client to bring solutions that meet global standards.</p>
+          </div>
+          <div class="about-mini-card about-mini-card--accent">
+            <span class="about-mini-card__num" aria-hidden="true">03</span>
+            <h3 class="about-mini-card__title">Our History</h3>
+            <p>Incorporated in 2005 at Bangalore, we are a prominent brand in web design, multimedia, web application development, e-commerce, SEO, SEM, and print media—with a strong track record internationally and in India.</p>
+          </div>
+        </div>
+        <div class="about-block__plan">
+          <div class="about-plan-card">
+            <p class="about-plan-card__label">Digital Excellence</p>
+            <h2 class="about-plan-card__title">What We Do?</h2>
+            <p class="about-plan-card__text">We offer creative and cost-effective services to the International markets with clients at the USA, UAE, Muscat, Russia, UK and other parts of the world besides serving Bangalore and other locations in India.
+              TDS works on the ideology of creativity, quality and delivery. The company is dedicated to provide the most innovative, competitive and technically state-of-the-art solutions to its clients so as to help them get an edge over their competitors. <br><br>
+              
+              Despite the multifarious functional requirements for website designing, we tend to keep the most striking and simple interfaces for our users. This technique helps us in abridging any gap between the technological aspects and user’s ease. The overall looks, consistency of content, quality of execution are few benchmarks that substantiate our services.<br>
+              <br>Taarruni is a one-stop Web solution for web development orientations, Internet Application Development. Our people are perpetually available round the clock to serve and support our customers.</p>
+            <a href="index.html#contact" class="about-cta-btn about-cta-btn--primary">
+              <span class="about-cta-btn-text">Contact Us</span>
+              <span class="about-cta-btn-icon" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us + Skills -->
+    <section class="about-block about-block--why">
+      <div class="container about-block__grid about-block__grid--why">
+        <div class="about-block__visual about-block__visual--image">
+          <div class="about-block__image-wrap">
+            <img src="why choice us.jpg" alt="Taarruni digital solutions tailored to your needs" width="600" height="400" loading="lazy" />
+          </div>
+        </div>
+        <div class="about-block__content">
+          <p class="about-block__label">Why Choose Us</p>
+          <h2 class="about-block__heading">Reliable Solutions Tailored to Your Needs</h2>
+          <p class="about-block__text">Our team has 50+ man-years of experience in web design, development, SEO, and print. We assure quality work that is aesthetic and functional. Our experts are trained from IIM Bangalore, IAMAI, and premier institutions.</p>
+          <div class="about-skills">
+            <div class="about-skill">
+              <div class="about-skill__header">
+                <span class="about-skill__label">Web Development</span>
+                <span class="about-skill__pct">95%</span>
+              </div>
+              <div class="about-skill__bar"><span class="about-skill__fill" style="width: 95%"></span></div>
+            </div>
+            <div class="about-skill">
+              <div class="about-skill__header">
+                <span class="about-skill__label">Digital Marketing &amp; SEO</span>
+                <span class="about-skill__pct">92%</span>
+              </div>
+              <div class="about-skill__bar"><span class="about-skill__fill" style="width: 92%"></span></div>
+            </div>
+            <div class="about-skill">
+              <div class="about-skill__header">
+                <span class="about-skill__label">Design &amp; UX</span>
+                <span class="about-skill__pct">94%</span>
+              </div>
+              <div class="about-skill__bar"><span class="about-skill__fill" style="width: 94%"></span></div>
+            </div>
+            <div class="about-skill">
+              <div class="about-skill__header">
+                <span class="about-skill__label">Support &amp; Delivery</span>
+                <span class="about-skill__pct">98%</span>
+              </div>
+              <div class="about-skill__bar"><span class="about-skill__fill" style="width: 98%"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trusted by -->
+    <section class="about-trust">
+      <div class="container">
+        <p class="about-trust__text">Trusted by 100+ companies worldwide. We deliver measurable IT &amp; marketing solutions with creativity, quality, and on-time delivery.</p>
+        <div class="about-trust__logos">
+          <span class="about-trust__logo">Boardwise</span>
+          <span class="about-trust__logo">Ferns</span>
+          <span class="about-trust__logo">LAPP</span>
+          <span class="about-trust__logo">Doosan</span>
+          <span class="about-trust__logo">Graco</span>
+          <span class="about-trust__logo">KPMG</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Goals + Values + Stats -->
+    <section class="about-block about-block--goals">
+      <div class="container">
+        <div class="about-goals-row">
+          <div class="about-goals-visual">
+            <div class="about-goals-visual__image-wrap">
+              <img src="Abt-1.jpg" alt="Taarruni helping you achieve your goals" width="600" height="400" loading="lazy" />
+            </div>
+          </div>
+          <div class="about-block__content about-block__content--card about-goals-card">
+            <h2 class="about-block__heading">We're Here to Help You Achieve Your Goals</h2>
+            <p class="about-block__text">We understand the value of every client’s requirements. We create distinct solutions for every client and keep interfaces striking and simple. Get in touch to start the conversation and transform your ideas into impactful digital experiences.</p>
+            <a href="index.html#contact" class="about-cta-btn about-cta-btn--primary">
+              <span class="about-cta-btn-text">Contact Us</span>
+              <span class="about-cta-btn-icon" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+        <div class="about-values">
+          <div class="about-value-card">
+            <span class="about-value-card__icon" aria-hidden="true">◆</span>
+            <h3 class="about-value-card__title">Commitment</h3>
+            <p>We are dedicated to providing innovative, competitive, and state-of-the-art solutions so you can get an edge over your competitors.</p>
+          </div>
+          <div class="about-value-card">
+            <span class="about-value-card__icon" aria-hidden="true">◇</span>
+            <h3 class="about-value-card__title">Quality</h3>
+            <p>Every service we provide is fault-free and on time. We follow strict conformity with international standards for our business practices.</p>
+          </div>
+          <div class="about-value-card">
+            <span class="about-value-card__icon" aria-hidden="true">▷</span>
+            <h3 class="about-value-card__title">Growth</h3>
+            <p>We partner with you to scale your digital presence—from web and e-commerce to SEO and multimedia—so your business grows.</p>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="about-stat">
+            <span class="about-stat__number">Since 2005</span>
+            <span class="about-stat__label">Years in business</span>
+          </div>
+          <div class="about-stat">
+            <span class="about-stat__number">100+</span>
+            <span class="about-stat__label">Satisfied clients</span>
+          </div>
+          <div class="about-stat">
+            <span class="about-stat__number">50+</span>
+            <span class="about-stat__label">Man-years experience</span>
+          </div>
+          <div class="about-stat">
+            <span class="about-stat__number">Bangalore &amp; USA</span>
+            <span class="about-stat__label">Offices</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top-section">
+      <div class="container footer__inner">
+        <div class="footer__left">
+          <a href="index.html" class="footer__logo" aria-label="Taarruni Home"><img src="taarruni%20new%20logo1.png" alt="Taarruni" width="120" height="36" /></a>
+          <div class="footer__graphic" aria-hidden="true">
+            <img src="Sub-Logo.jpeg" alt="Leaping towards Viksit Bharat 2047" width="380" height="88" />
+          </div>
+        </div>
+        <div class="footer__right">
+          <div class="footer__top">
+            <nav class="footer__nav" aria-label="Footer navigation">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="index.html#services">Services</a>
+              <a href="blog.html">Blog</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a href="index.html#clients">Clients</a>
+              <a href="index.html#contact">Contact</a>
+            </nav>
+            <a href="mailto:info@taarruni.com" class="footer__email">info@taarruni.com</a>
+          </div>
+          <div class="footer__about">
+            <p>Taarruni is a 360-degree Marketing Technology company specializing in technology-driven products and services within the marketing domain.</p>
+            <p>Established in 2005, we bring two decades of industry experience, blending creativity with strong technical expertise. Our core services include website design and development, digital marketing, web applications, e-commerce solutions, and custom platform development.</p>
+            <p>We work with businesses of all sizes to build scalable, user-friendly, and performance-oriented digital ecosystems. With deep expertise in strategy, UI/UX, SEO, automation, and emerging technologies, Taarruni helps brands strengthen their online presence, improve visibility, and achieve measurable business growth through reliable and innovative technology solutions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom-section">
+      <div class="container footer__bottom-inner">
+        <p class="footer__copy">© 2026. Taarruni Enterprises. All Rights Reserved.</p>
+        <p class="footer__meta">Since 2005. Bangalore. California.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
